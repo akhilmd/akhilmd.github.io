@@ -1,0 +1,42 @@
+html,body
+{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg
+{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background: url(../img/bg.png) no-repeat center center fixed; 
+    background-size: cover;
+    transform: scale(1.1);
+    filter: blur(2px);
+}
+
+.center
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.amd
+{
+    color: white;
+    font-size: 120%;
+    text-decoration: none;
+    transition: font-size 0.25s;
+    font-family: "Courier New";
+}
+
+.amd:hover
+{
+    font-size: 150%;
+}
